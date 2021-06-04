@@ -1,0 +1,239 @@
+@import "./variables.scss";
+
+
+body{
+    margin: 0;
+    color: $main_font_color;
+}
+
+header{
+    padding: 1.5vw 0;
+}
+
+h2{
+    font-size: 2.5vw;
+}
+
+h3{
+    font-size: 1.8vw;
+}
+
+h4{
+    font-size: 1.5vw;
+}
+
+p{
+    font-size: 1.2vw;
+}
+
+
+/*//////////////////////////////////////////////////////////
+                            MAIN PAGE
+//////////////////////////////////////////////////////////*/
+.main_page{
+    position: relative;
+
+    header .ask-questions{
+        border: 0.3vw solid #F3C8D5 ;
+        color: #D53D6C;
+        border-radius: 0.5vw;
+        background: transparent;
+        outline: none;
+        cursor: pointer;
+        padding: 0.5vw 1vw ;
+        font-size: 1.5vw;
+    }
+
+    .info{
+        .pill_container{
+            margin-top: 5vw ;
+            text-align: center;
+            position: relative;
+
+            #german_flag{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 15%;
+            }
+
+            #white_arrow{
+                position: absolute;
+                bottom: 20%;
+                right: 5%;
+                width: 20%;
+            }
+
+            #capsules{
+                position: absolute;
+                bottom: 25%;
+                right: -20%;
+                width: 30%;
+            }
+        }
+    }
+
+    .information_block{
+        width: 40%;
+        margin-top: 5vw;
+
+        p{
+            margin: 2vw 0;
+        }
+
+        h2{
+            font-weight: bolder;
+        }
+
+        button{
+            background-color: #445773;
+            color: white;
+            padding: 1vw 3vw;
+            font-size: 1.5vw;
+            border-radius: .5vw;
+            border: 0;
+        }
+    } 
+
+    #main_page_banner{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+/*//////////////////////////////////////////////////////////
+                            SECOND PAGE
+//////////////////////////////////////////////////////////*/
+
+.second_page{
+    padding-top: 10vw;
+
+    h3{
+        font-weight: bolder;
+    }
+
+    .info{
+        & > div{
+            margin-top: 3vw;
+        }
+
+        h4{
+            font-weight: bold;
+        }
+    }
+
+    .group_image_container{
+        overflow: hidden;
+            img{
+            transform: scale(1.2);
+        }
+    }
+}
+
+/*//////////////////////////////////////////////////////////
+                            THIRD PAGE
+//////////////////////////////////////////////////////////*/
+
+.third_page{
+    padding-top: 10vw;
+    background-color: #F5F6FC;
+    position: relative;
+
+    .container *{
+        z-index: 1;
+    }
+
+    h4{
+        font-weight: bold;
+    }
+
+    .little_padding{
+        padding-right: 30%;
+        margin: 2vw 0;
+    }
+
+    #bacteria_circle{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    #bacteria_circle_top{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+
+/*//////////////////////////////////////////////////////////
+                            FORTH PAGE
+//////////////////////////////////////////////////////////*/
+.forth_section{
+    padding-top: 10vw;
+
+    h3{
+        font-weight: bold;
+    }
+}
+
+
+
+/*//////////////////////////////////////////////////////////
+                            FIFTH PAGE
+//////////////////////////////////////////////////////////*/
+
+.fifth_section{
+    padding-top: 10vw;
+
+    h2{
+        font-weight: bolder;
+    }
+
+    .col-3 > div:first-child{
+        margin: 5vw 0;
+    }
+
+    .col-3 div h4{
+        margin-top: 1vw;
+    }
+
+    .images_container{
+        position: relative;
+        margin-top: 3vw;
+
+        #first_arrow{
+            position: absolute;
+            top: 20%;
+            left: 0;
+        }
+
+        #second_arrow{
+            position: absolute;
+            bottom: 20%;
+            left: 0;
+        }
+
+        #third_arrow{
+            position: absolute;
+            top: 20%;
+            right: 0;
+        }
+
+        #forth_arrow{
+            position: absolute;
+            bottom: 20%;
+            right: 0;
+        }
+
+        .arrows1{
+            transform: rotate(40deg);
+        }
+
+        .arrows2{
+            transform: rotate(180deg);
+        }
+    }
+}

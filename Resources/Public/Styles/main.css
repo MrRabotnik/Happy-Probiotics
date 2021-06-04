@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  color: #445773; }
+
+header {
+  padding: 1.5vw 0; }
+
+h2 {
+  font-size: 2.5vw; }
+
+h3 {
+  font-size: 1.8vw; }
+
+h4 {
+  font-size: 1.5vw; }
+
+p {
+  font-size: 1.2vw; }
+
+/*//////////////////////////////////////////////////////////
+                            MAIN PAGE
+//////////////////////////////////////////////////////////*/
+.main_page {
+  position: relative; }
+  .main_page header .ask-questions {
+    border: 0.3vw solid #F3C8D5;
+    color: #D53D6C;
+    border-radius: 0.5vw;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5vw 1vw;
+    font-size: 1.5vw; }
+  .main_page .info .pill_container {
+    margin-top: 5vw;
+    text-align: center;
+    position: relative; }
+    .main_page .info .pill_container #german_flag {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 15%; }
+    .main_page .info .pill_container #white_arrow {
+      position: absolute;
+      bottom: 20%;
+      right: 5%;
+      width: 20%; }
+    .main_page .info .pill_container #capsules {
+      position: absolute;
+      bottom: 25%;
+      right: -20%;
+      width: 30%; }
+  .main_page .information_block {
+    width: 40%;
+    margin-top: 5vw; }
+    .main_page .information_block p {
+      margin: 2vw 0; }
+    .main_page .information_block h2 {
+      font-weight: bolder; }
+    .main_page .information_block button {
+      background-color: #445773;
+      color: white;
+      padding: 1vw 3vw;
+      font-size: 1.5vw;
+      border-radius: .5vw;
+      border: 0; }
+  .main_page #main_page_banner {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: -1; }
+
+/*//////////////////////////////////////////////////////////
+                            SECOND PAGE
+//////////////////////////////////////////////////////////*/
+.second_page {
+  padding-top: 10vw; }
+  .second_page h3 {
+    font-weight: bolder; }
+  .second_page .info > div {
+    margin-top: 3vw; }
+  .second_page .info h4 {
+    font-weight: bold; }
+  .second_page .group_image_container {
+    overflow: hidden; }
+    .second_page .group_image_container img {
+      transform: scale(1.2); }
+
+/*//////////////////////////////////////////////////////////
+                            THIRD PAGE
+//////////////////////////////////////////////////////////*/
+.third_page {
+  padding-top: 10vw;
+  background-color: #F5F6FC;
+  position: relative; }
+  .third_page .container * {
+    z-index: 1; }
+  .third_page h4 {
+    font-weight: bold; }
+  .third_page .little_padding {
+    padding-right: 30%;
+    margin: 2vw 0; }
+  .third_page #bacteria_circle {
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+  .third_page #bacteria_circle_top {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+/*//////////////////////////////////////////////////////////
+                            FORTH PAGE
+//////////////////////////////////////////////////////////*/
+.forth_section {
+  padding-top: 10vw; }
+  .forth_section h3 {
+    font-weight: bold; }
+
+/*//////////////////////////////////////////////////////////
+                            FIFTH PAGE
+//////////////////////////////////////////////////////////*/
+.fifth_section {
+  padding-top: 10vw; }
+  .fifth_section h2 {
+    font-weight: bolder; }
+  .fifth_section .col-3 > div:first-child {
+    margin: 5vw 0; }
+  .fifth_section .col-3 div h4 {
+    margin-top: 1vw; }
+  .fifth_section .images_container {
+    position: relative;
+    margin-top: 3vw; }
+    .fifth_section .images_container #first_arrow {
+      position: absolute;
+      top: 20%;
+      left: 0; }
+    .fifth_section .images_container #second_arrow {
+      position: absolute;
+      bottom: 20%;
+      left: 0; }
+    .fifth_section .images_container #third_arrow {
+      position: absolute;
+      top: 20%;
+      right: 0; }
+    .fifth_section .images_container #forth_arrow {
+      position: absolute;
+      bottom: 20%;
+      right: 0; }
+    .fifth_section .images_container .arrows1 {
+      transform: rotate(40deg); }
+    .fifth_section .images_container .arrows2 {
+      transform: rotate(180deg); }
+
+
+/*# sourceMappingURL=main.css.map*/

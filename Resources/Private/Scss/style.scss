@@ -19,11 +19,16 @@ h3{
 }
 
 h4{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 p{
     font-size: 1.2vw;
+}
+
+.page_container{
+    width: 70%;
+    margin: auto;
 }
 
 
@@ -34,14 +39,14 @@ p{
     position: relative;
 
     header .ask-questions{
-        border: 0.3vw solid #F3C8D5 ;
+        border: 0.1vw solid #F3C8D5 ;
         color: #D53D6C;
         border-radius: 0.5vw;
         background: transparent;
         outline: none;
         cursor: pointer;
         padding: 0.5vw 1vw ;
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
 
     .info{
@@ -52,8 +57,8 @@ p{
 
             #german_flag{
                 position: absolute;
-                top: 0;
-                left: 0;
+                top: 10%;
+                left: 10%;
                 width: 15%;
             }
 
@@ -66,15 +71,25 @@ p{
 
             #capsules{
                 position: absolute;
-                bottom: 25%;
-                right: -20%;
-                width: 30%;
+                bottom: 20%;
+                right: -40%;
+                width: 40%;
+            }
+
+            #gastro-resistant{
+                position: absolute;
+                width: 100%;
+                bottom: 29%;
+                right: -70%;
+                color: white;
+                font-size: 3vw;
+                transform: rotate(-5deg);
             }
         }
     }
 
     .information_block{
-        width: 40%;
+        width: 50%;
         margin-top: 5vw;
 
         p{
@@ -120,7 +135,7 @@ p{
         }
 
         h4{
-            font-weight: bold;
+            font-weight: 500;
         }
     }
 
@@ -141,7 +156,7 @@ p{
     background-color: #F5F6FC;
     position: relative;
 
-    .container *{
+    .page_container *{
         z-index: 1;
     }
 
@@ -177,6 +192,13 @@ p{
     h3{
         font-weight: bold;
     }
+
+    .image_div{
+        height: 7vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 
@@ -202,7 +224,7 @@ p{
 
     .images_container{
         position: relative;
-        margin-top: 3vw;
+        margin: 3vw 0;
 
         #first_arrow{
             position: absolute;

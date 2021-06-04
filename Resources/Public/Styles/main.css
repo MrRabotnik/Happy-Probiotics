@@ -12,10 +12,14 @@ h3 {
   font-size: 1.8vw; }
 
 h4 {
-  font-size: 1.5vw; }
+  font-size: 1.3vw; }
 
 p {
   font-size: 1.2vw; }
+
+.page_container {
+  width: 70%;
+  margin: auto; }
 
 /*//////////////////////////////////////////////////////////
                             MAIN PAGE
@@ -23,22 +27,22 @@ p {
 .main_page {
   position: relative; }
   .main_page header .ask-questions {
-    border: 0.3vw solid #F3C8D5;
+    border: 0.1vw solid #F3C8D5;
     color: #D53D6C;
     border-radius: 0.5vw;
     background: transparent;
     outline: none;
     cursor: pointer;
     padding: 0.5vw 1vw;
-    font-size: 1.5vw; }
+    font-size: 1.3vw; }
   .main_page .info .pill_container {
     margin-top: 5vw;
     text-align: center;
     position: relative; }
     .main_page .info .pill_container #german_flag {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 10%;
+      left: 10%;
       width: 15%; }
     .main_page .info .pill_container #white_arrow {
       position: absolute;
@@ -47,11 +51,19 @@ p {
       width: 20%; }
     .main_page .info .pill_container #capsules {
       position: absolute;
-      bottom: 25%;
-      right: -20%;
-      width: 30%; }
+      bottom: 20%;
+      right: -40%;
+      width: 40%; }
+    .main_page .info .pill_container #gastro-resistant {
+      position: absolute;
+      width: 100%;
+      bottom: 29%;
+      right: -70%;
+      color: white;
+      font-size: 3vw;
+      transform: rotate(-5deg); }
   .main_page .information_block {
-    width: 40%;
+    width: 50%;
     margin-top: 5vw; }
     .main_page .information_block p {
       margin: 2vw 0; }
@@ -80,7 +92,7 @@ p {
   .second_page .info > div {
     margin-top: 3vw; }
   .second_page .info h4 {
-    font-weight: bold; }
+    font-weight: 500; }
   .second_page .group_image_container {
     overflow: hidden; }
     .second_page .group_image_container img {
@@ -93,7 +105,7 @@ p {
   padding-top: 10vw;
   background-color: #F5F6FC;
   position: relative; }
-  .third_page .container * {
+  .third_page .page_container * {
     z-index: 1; }
   .third_page h4 {
     font-weight: bold; }
@@ -116,6 +128,11 @@ p {
   padding-top: 10vw; }
   .forth_section h3 {
     font-weight: bold; }
+  .forth_section .image_div {
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 /*//////////////////////////////////////////////////////////
                             FIFTH PAGE
@@ -130,7 +147,7 @@ p {
     margin-top: 1vw; }
   .fifth_section .images_container {
     position: relative;
-    margin-top: 3vw; }
+    margin: 3vw 0; }
     .fifth_section .images_container #first_arrow {
       position: absolute;
       top: 20%;
